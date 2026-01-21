@@ -1,6 +1,18 @@
-# Mans Node.js Projekts
-Šis ir mans pirmais projekts, kurā es apgūstu JavaScript un Git.
+# Node.js Pamati: Modulis 2
 
-## Kā palaist
-1. Uzinstalējiet Node.js.
-2. Terminālī rakstiet: node src/hello.js
+Šis repozitorijs satur manus pirmos soļus JavaScript programmēšanā un versiju kontrolē.
+
+## Projekta struktūra
+* `/src` - Programmu pirmkods
+* `/docs` - Dokumentācija
+
+## Izstrādātās programmas
+1. **hello.js** - Izvada sistēmas info un sveicienu.
+2. **greeter.js** - Personalizēts sveicējs, izmantojot argumentus.
+3. **temperature.js** - Temperatūras konvertors (C <-> F).
+4. **interactive.js** - Interaktīva aptauja, izmantojot `readline`.
+
+## Kā lietot
+Pārliecinieties, ka ir instalēts Node.js.
+Piemērs temperatūras konvertēšanai:
+`node src/temperature.js 100 C`
